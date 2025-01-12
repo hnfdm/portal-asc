@@ -15,22 +15,20 @@
 - Animations using [framer-motion](https://www.framer.com/motion/) <br />
 - Emails using [Emailjs](https://www.emailjs.com/) <br />
 - Convert 3d models to JSX using [Gltf JSX](https://github.com/pmndrs/gltfjsx) <br />
-- Wallpaper from [Freepik](https://www.freepik.com) & [Wallpaper Flare](https://www.wallpaperflare.com)
+- Wallpaper from [Freepik](https://www.freepik.com)
 
 ### Getting Started
 
-First, install the dependencies and run the development server:
+First, install the dependencies:
 
 ```bash
 npm install # to install all dependencies
+```
 
+Second, run the deployment:
+
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 ### Acknowledgments

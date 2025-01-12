@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../../public/background/test1.jpg";
+import bg from "../../public/background/home-8.jpg";
 import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 

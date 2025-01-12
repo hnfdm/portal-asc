@@ -5,7 +5,7 @@ import { TextureLoader } from "three";
 
 const LogoModel = React.memo(function LogoModel(props) {
   // Memuat gambar logo sebagai texture
-  const texture = useLoader(TextureLoader, "/models/logo.png"); // Path ke logo Anda
+  const texture = useLoader(TextureLoader, "/models/logo2.png"); // Path ke logo Anda
 
   const modelRef = useRef();
 
