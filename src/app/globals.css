@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 27 27 27;
+    --foreground: 225 225 225;
+    --muted: 115 115 115;
+    --accent: 65 105 225;
+    /*--accent: 0 0 205;*/
+    /* hex value of rgb(254,254,91) color is  #FEFE5B  */
+  }
+}
+
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+
+  .custom-bg {
+    @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100px, 100px);
+  }
+}
+
+.mascot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Menampilkan gambar di tengah halaman */
+  background-color: #f0f0f0; /* Opsional: latar belakang */
+}
+
+.mascot-image {
+  width: 200px; /* Sesuaikan ukuran gambar */
+  animation: float 2s ease-in-out infinite; /* Animasi naik-turun */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
