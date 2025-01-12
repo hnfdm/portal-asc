@@ -22,7 +22,7 @@
 First, install the dependencies and run the development server:
 
 ```bash
-npm run install # to install all dependencies
+npm install # to install all dependencies
 
 npm run dev
 # or
