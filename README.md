@@ -1,4 +1,4 @@
-## Website Portal of Airdrop ASC
+## Official Website Portal of Airdrop ASC
 
 ### Framework
 
