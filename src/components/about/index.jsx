@@ -1,6 +1,6 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
-//import { icons } from "../../data";
+import {icons} from "@/app/data";
 import Link from "next/link";
 
 const AboutDetails = () => {
@@ -27,7 +27,7 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}  
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            200+ <sub className="font-semibold text-base">partners & clients</sub>
           </p>
         </ItemLayout>
 
@@ -42,30 +42,27 @@ const AboutDetails = () => {
         {/*<ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            //src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
+            //src={'/icons/wizardia.jpg,binance.svg'}
+            src={icons.src}
+            alt="Icons"
             loading="lazy"
           />
         </ItemLayout>*/}
 
-        {/*<ItemLayout className={"col-span-full"}>
-          <div className="grid grid-cols-6 gap-4">
+        <ItemLayout className="col-span-full">
+          <div className="grid grid-cols-12 gap-4">
             {icons.map((icon) => (
-              <a
-                key={icon.name}
-                href={icon.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <div key={icon.name} className="flex items-center justify-center">
                 <img
-                  className="w-12 h-12"
-                  src={`public/icons/${icon.file}`}
-                  alt={icon.name}
+                  src={icon.src}
+                  alt={icon.alt}
+                  className="w-24 h-24 object-contain"
                 />
-              </a>
+              </div>
             ))}
           </div>
-        </ItemLayout>*/}
+        </ItemLayout>
 
       </div>
     </section>
