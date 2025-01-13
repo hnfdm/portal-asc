@@ -51,13 +51,13 @@ const AboutDetails = () => {
         </ItemLayout>*/}
 
         <ItemLayout className="col-span-full">
-          <div className="grid grid-cols-12 gap-4">
+          <div className="grid grid-cols-10 gap-6">
             {icons.map((icon) => (
               <div key={icon.name} className="flex items-center justify-center">
                 <img
                   src={icon.src}
                   alt={icon.alt}
-                  className="w-24 h-24 object-contain"
+                  className="w-18 h-18 object-contain"
                 />
               </div>
             ))}
