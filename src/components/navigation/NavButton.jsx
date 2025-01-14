@@ -1,7 +1,6 @@
 import {
   Github,
   Home,
-  Palette,
   Phone,
   Twitter,
   User,

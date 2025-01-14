@@ -11,11 +11,11 @@ const inter = Inter({
 export const metadata = {
   title: {
     template:
-      "ASC Portal",
+      "Airdrop ASC",
     default:
-      "ASC Portal",
+      "Airdrop ASC",
   },
-  description: "Airdrop ASC Portal"
+  description: "Airdrop ASC"
 };
 
 export default function RootLayout({ children }) {

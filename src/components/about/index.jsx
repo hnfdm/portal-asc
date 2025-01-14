@@ -39,17 +39,6 @@ const AboutDetails = () => {
           </p>
         </ItemLayout>
 
-        {/*<ItemLayout className={"col-span-full"}>
-          <img
-            className="w-full h-auto"
-            //src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            //src={'/icons/wizardia.jpg,binance.svg'}
-            src={icons.src}
-            alt="Icons"
-            loading="lazy"
-          />
-        </ItemLayout>*/}
-
         <ItemLayout className="col-span-full">
           <div className="grid grid-cols-10 gap-6">
             {icons.map((icon) => (

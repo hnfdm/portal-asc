@@ -6,10 +6,10 @@ const item = {
   show: { opacity: 1, y: 0 },
 };
 
-const ProjectLink = motion(Link);
-const ProjectLayout = ({ name, description, date, demoLink }) => {
+const ResearchLink = motion(Link);
+const ResearchLayout = ({ name, description, date, demoLink }) => {
   return (
-    <ProjectLink
+    <ResearchLink
       variants={item}
       href={demoLink}
       target={"_blank"}
@@ -27,8 +27,8 @@ const ProjectLayout = ({ name, description, date, demoLink }) => {
           year: 'numeric',
         })}
       </p>
-    </ProjectLink>
+    </ResearchLink>
   );
 };
 
-export default ProjectLayout;
+export default ResearchLayout;

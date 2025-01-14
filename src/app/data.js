@@ -1,22 +1,4 @@
-/*
-Websites:
-
-- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
-- https://lucide.dev/icons/ (Lucide Icons)
-- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
-- https://skillicons.dev (Skill Icons to show skills)
-- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
-
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
-*/
-
-export const projectsData = [
+export const researchData = [
   {
     id: 14,
     name: "Mega ETH 101",
@@ -27,7 +9,7 @@ export const projectsData = [
   {
     id: 13,
     name: "ARIO 101",
-    description: "The first domain on AO, but it’s not just an simple domain.",
+    description: "The first domain on AO, but it's not just an simple domain.",
     date: "2025-01-06",
     demoLink: "https://x.com/Autosultan_team/status/1875950696165728413",
   },
@@ -120,7 +102,7 @@ export const projectsData = [
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Research", link: "/projects", icon: "library", newTab: false },
+  { label: "Research", link: "/research", icon: "library", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Telegram 1",
